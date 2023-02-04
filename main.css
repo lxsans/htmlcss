@@ -1,0 +1,163 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.header {
+	border-bottom: 2px solid #ff00aa;
+	
+}
+
+.page {
+	
+	
+}
+
+.footer {
+	
+	
+}
+
+.column {
+/*order: 1px solid black;*/
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.page .column {
+	height: 100vh;
+}
+
+#logo-i-social {
+	display:flex;
+}
+
+#logo-holder {
+	flex-grow: 1;
+}
+
+#social-holder {
+	flex-grow: 1;
+	text-align: right;
+}
+
+#social-holder a {
+	text-decoration: none;
+}
+
+#social-holder a img {
+	width: 24px;
+	height: 24px;
+	margin: 5px;
+}
+
+#main-menu {
+	display: flex;
+}
+
+#main-menu a {
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: #ff00aa;
+	transition: 250ms;
+	}
+	
+#main-menu a:hover {
+	background: #ff00aa;
+	color: #ffffff;
+}
+ 
+ #main-menu a:hover,
+ #main-menu a.active {
+	background: #ff00aa;
+	color: #ffffff;
+}
+
+#pocetna {
+	text-align: center;
+	color: #ffffff;
+	background: url('assets/img/pozadine/bg01.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#pocetna h1 {
+	font-size: 48pt;
+	margin-top: 0px;
+	padding-top: calc(50vh - 250px);
+}
+
+.dark-box {
+	border: 1px solid #ffffff;
+	background-color: #33333390;
+	font-size: 24pt;
+	padding: 40px;
+}
+
+#usluge {
+	background: url('assets/img/pozadine/bg02.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+#karijera {
+	background: url('assets/img/pozadine/bg03.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.krugovi {
+	display: flex;
+	margin: 30px 0;
+}
+
+.krug-holder {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.krug {
+	background: #ff00aa;
+	color: #ffffff;
+	font-size: 48px;
+	display: inline-block;
+	padding: 25%;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 50%;
+}
+
+.oznaka {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.tehnologije {
+	display: flex;
+	margin: 30px 0px;
+}
+
+.tehnologija {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.tehnologija img {
+	width: 48px;
+	height: 48px;
+}
+
+.tehnologija p {
+	font-weight: bold;
+}
